@@ -88,7 +88,7 @@ Navigate to `http://localhost:3000`. We've included a few "Try a demo" buttons o
 If you want to plug the engine into another frontend, we expose two main routes:
 
 - **`POST /api/analyze`**
-  Expects `{ input: string }`. Returns an NDJSON stream. We stream the steps so the user isn't staring at a blank screen for 30 seconds. Event types include: `preprocess`, `agent_start`, `agent_done`, `verdict`, `recovery`, and `error`.
+  Expects `{ input: string }`. Returns an NDJSON stream. We stream the steps so the user isn't staring at a blank screen for 30 seconds. Event types include- `preprocess`, `agent_start`, `agent_done`, `verdict`, `recovery`, and `error`.
   
 - **`POST /api/report`**
   Allows users to submit confirmed scams to grow the community database.
